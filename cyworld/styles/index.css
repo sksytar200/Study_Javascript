@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.background{
+    width: 1024px;
+    height: 600px;
+    padding: 20px 0px 0px 20px;
+    background-image: url("../images/background.png");
+}
+.outerbox{
+    width: 808px;
+    height: 544px;
+    background-image: url("../images/outerbox.png");
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 32px 0px 0px 32px;
+
+
+}
+.wrapper__left{
+    width:208px;
+    height: 472px;
+    display: flex;
+    flex-direction: column;
+
+}
+.wrapper__left__header{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.today{
+    font-size: 9px;
+}
+
+.wrapper__left__body{
+    width:100%;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 플렉스가 컬럼일때, align-items가 가로정렬 */
+    padding: 20px 30px;
+
+}
+.left__body__header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.left__body__header__gray{
+    width:148px;
+    height: 133px;
+    background-color: gray;
+}
+.left__body__header__line{
+    border-top: 1px dotted black;
+    margin: 12px 0px;
+    /* 첫번재 입력값은 상하, 두번재 입력값은 좌우의미 */
+}
+.left__body__profile{
+    width: 100%;
+    height: 100%;
+  background-color: red;
+
+}
+.profile_detail{
+    color: #999999;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Malgun Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 12px;
+
+}
+.fas {
+    color: black;
+    margin-right: 10px;
+    width: 5px;
+    height: 5px;
+}
+.left__body__footer{
+
+}
+.wrapper__right{
+    width:524px;
+    height: 472px;
+
+}
