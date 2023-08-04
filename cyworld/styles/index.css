@@ -78,14 +78,16 @@
 }
 .profile_detail{
     color: #999999;
-    background-color: aqua;
+    /*background-color: aqua;*/
     display: flex;
     flex-direction: row;
     font-family: 'Malgun Gothic';
     font-style: normal;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-size: 9px;
     line-height: 12px;
+    margin-bottom: 10px;
+
 
 }
 .fas {
@@ -95,7 +97,9 @@
     height: 5px;
 }
 .left__body__footer{
-
+    font-size: 11px;
+    color:black;
+    width: 100%;
 }
 .wrapper__right{
     width:524px;
